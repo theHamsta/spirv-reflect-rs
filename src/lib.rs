@@ -5,6 +5,7 @@ extern crate num_traits;
 extern crate serde_derive;
 
 use num_traits::cast::FromPrimitive;
+use std::convert::TryInto;
 
 pub mod convert;
 pub mod ffi;
